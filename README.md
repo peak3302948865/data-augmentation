@@ -3,6 +3,7 @@
 课程**DATA620004 神经网络和深度学习**期中作业相关代码
 
 伍楷23210980084
+王子天23210980082
 
 ## Dependencies
 * numpy>=1.16.4
@@ -23,7 +24,7 @@
 ### 准备数据与预训练模型
 * 下载代码至本地
 
-* 下载[CIFAR100数据集](https://pan.baidu.com/s/1l-1VepJNsM4Q7ImkB28Cyg)（提取码：6pjr）至本地，将其解压并移动到`./dataset`（或自定义路径）文件夹中
+* 下载[CUB-200-2011]( https://data.caltech.edu/records/65de6-vp158)数据集至本地，将其解压并移动到`./dataset`（或自定义路径）文件夹中
 
 * 下载链接：https://pan.baidu.com/s/1I4asm9Y5XR6F3PGmUGS_yg 提取码：kcw8至本地，将其解压移动到`./pretrain`（或自定义路径）文件夹中
 
@@ -81,3 +82,4 @@ python  main.py --gpu_id 0 --model mixup --datapath ./dataset --logpath ./result
 tensorboard  --logdir=results
 ```
 * --logdir：Tensorboard路径
+
