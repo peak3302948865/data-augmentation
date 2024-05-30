@@ -18,10 +18,6 @@ _C.DATA.num_classes = len(_C.DATA.classes)
 # MODEL config
 _C.MODEL = CN()
 _C.MODEL.saved_path = 'trained_model/'
-_C.MODEL.ANCHORS = [np.array([10.,13.]),  np.array([16.,30.]),  np.array([33.,23.]),  np.array([30.,61.]),  np.array([62.,45.]),  np.array([59.,119.]),  np.array([116.,90.]),  np.array([156.,198.]),  np.array([373.,326.])]
-_C.MODEL.STRIDES = [8, 16, 32]
-_C.MODEL.ANCHORS_PER_SCLAE = 3
-
 
 # train config
 _C.TRAIN = CN()
