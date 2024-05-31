@@ -1,4 +1,7 @@
 ### Mid-Term-Project 
+### Solution:
+**TASK1**请详见**文件夹CNN_for_Birds_Identification**, **TASK2** Faster R-CNN部分详见**文件夹faster-r-cnn**，YOLO V3部分详见**文件夹 yolov3**
+
 ### TASK1： 
 微调在ImageNet上预训练的卷积神经网络实现鸟类识别，基本要求如下：
 1. 修改现有的CNN架构（如AlexNet，ResNet-18）用于鸟类识别，通过将其输出层大小设置为200以适应数据集中的类别数量，其余层使用在ImageNet上预训练得到的网络参数进行初始化； 
@@ -12,5 +15,3 @@
 2. 挑选4张测试集中的图像，通过可视化对比训练好的Faster R-CNN第一阶段产生的proposal box和最终的预测结果。
 3. 搜集三张不在VOC数据集内包含有VOC中类别物体的图像，分别可视化并比较两个在VOC数据集上训练好的模型在这三张图片上的检测结果（展示bounding box、类别标签和得分）；
 
-### Solution:
-*TASK1*请详见**文件夹CNN_for_Birds_Identification**, *TASK2* Faster R-CNN部分详见**文件夹faster-r-cnn**，YOLO V3部分详见**文件夹 yolov3**
