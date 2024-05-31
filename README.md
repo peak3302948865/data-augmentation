@@ -1,6 +1,6 @@
 ### Mid-Term-Project 
 ### Solution:
-**TASK1**请详见**文件夹CNN_for_Birds_Identification**, **TASK2** Faster R-CNN部分详见**文件夹faster-r-cnn**，YOLO V3部分详见**文件夹 yolov3**
+**TASK1**请详见文件夹*CNN_for_Birds_Identification*, **TASK2** Faster R-CNN部分详见文件夹*faster-r-cnn*，YOLO V3部分详见文件夹 *yolov3*
 
 ### TASK1： 
 微调在ImageNet上预训练的卷积神经网络实现鸟类识别，基本要求如下：
