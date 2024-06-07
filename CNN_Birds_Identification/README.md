@@ -30,7 +30,6 @@
 ### 样本可视化
 运行下列代码可以在Tensorboard上可视化数据增强的样本
 ```
-python  visualization_augmented_samples.py --gpu_id 0 --datapath ./dataset
 tensorboard  --logdir=results/visualization
 ```
 * --gpu_id：所使用GPU的id
